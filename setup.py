@@ -1,4 +1,5 @@
-#!/usr/bin/env python2.5
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from distutils.core import setup
 from distutils.core import Extension
@@ -25,7 +26,7 @@ setup(name='pydhcplib',
       description  = "Dhcp client/server library",
       author       = "Mathieu Ignacio, Diego Souza",
       author_email = "mignacio@april.org",
-      url          = "http://github.com/dgvncsz0f/pydhcplib",
+      url          = "https://github.com/Legrandgroup/pydhcplib",
       packages     = ["pydhcplib"],
       scripts      = ["scripts/pydhcp"],
       ext_modules  = [rawsocketmod],
